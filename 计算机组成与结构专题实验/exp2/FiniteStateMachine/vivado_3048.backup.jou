@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Oct 18 10:16:59 2024
+# Process ID: 3048
+# Current directory: D:/VerlilogCode/ComputerStructure/exp2/FiniteStateMachine
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12444 D:\VerlilogCode\ComputerStructure\exp2\FiniteStateMachine\FiniteStateMachine.xpr
+# Log file: D:/VerlilogCode/ComputerStructure/exp2/FiniteStateMachine/vivado.log
+# Journal file: D:/VerlilogCode/ComputerStructure/exp2/FiniteStateMachine\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/VerlilogCode/ComputerStructure/exp2/FiniteStateMachine/FiniteStateMachine.xpr
+update_compile_order -fileset sources_1
+close [ open D:/VerlilogCode/ComputerStructure/exp2/FiniteStateMachine/FiniteStateMachine.srcs/sources_1/new/FSM_caseif.v w ]
+add_files D:/VerlilogCode/ComputerStructure/exp2/FiniteStateMachine/FiniteStateMachine.srcs/sources_1/new/FSM_caseif.v
+update_compile_order -fileset sources_1

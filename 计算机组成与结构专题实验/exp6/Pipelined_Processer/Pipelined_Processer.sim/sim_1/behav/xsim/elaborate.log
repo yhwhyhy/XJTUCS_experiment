@@ -1,0 +1,8 @@
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: E:/vivado/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto d4747128847c466b8f66c9125655a02d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sim_PipeLinedProcesser_behav xil_defaultlib.sim_PipeLinedProcesser xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 12 for port Address [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:208]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

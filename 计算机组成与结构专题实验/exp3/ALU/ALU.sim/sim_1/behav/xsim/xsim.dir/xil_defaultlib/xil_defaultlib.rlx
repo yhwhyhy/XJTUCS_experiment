@@ -1,0 +1,17 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+D:/VerlilogCode/ComputerStructure/exp3/ALU/ALU.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+D:/VerlilogCode/ComputerStructure/exp3/ALU/ALU.srcs/sim_1/new/sim_ALU_8.v,1729997960,verilog,,,,sim_ALU_8,,,,,,,,
+D:/VerlilogCode/ComputerStructure/exp3/ALU/ALU.srcs/sim_1/new/sim_adder8bit.v,1729996619,verilog,,,,sim_adder8bit,,,,,,,,
+D:/VerlilogCode/ComputerStructure/exp3/ALU/ALU.srcs/sim_1/new/sim_adder_1bit.v,1729994863,verilog,,,,sim_adder_1bit,,,,,,,,
+D:/VerlilogCode/ComputerStructure/exp3/ALU/ALU.srcs/sources_1/new/ADD.v,1729997721,verilog,,D:/VerlilogCode/ComputerStructure/exp3/ALU/ALU.srcs/sources_1/new/ALU_8.v,,ADD,,,,,,,,
+D:/VerlilogCode/ComputerStructure/exp3/ALU/ALU.srcs/sources_1/new/ALU_8.v,1729992661,verilog,,D:/VerlilogCode/ComputerStructure/exp3/ALU/ALU.srcs/sources_1/new/Decoder38.v,,ALU_8,,,,,,,,
+D:/VerlilogCode/ComputerStructure/exp3/ALU/ALU.srcs/sources_1/new/Decoder38.v,1729989773,verilog,,D:/VerlilogCode/ComputerStructure/exp3/ALU/ALU.srcs/sources_1/new/SLL.v,,Decoder38,,,,,,,,
+D:/VerlilogCode/ComputerStructure/exp3/ALU/ALU.srcs/sources_1/new/SLL.v,1729989164,verilog,,D:/VerlilogCode/ComputerStructure/exp3/ALU/ALU.srcs/sources_1/new/SLT.v,,SLL,,,,,,,,
+D:/VerlilogCode/ComputerStructure/exp3/ALU/ALU.srcs/sources_1/new/SLT.v,1729991308,verilog,,D:/VerlilogCode/ComputerStructure/exp3/ALU/ALU.srcs/sources_1/new/SUB.v,,SLT,,,,,,,,
+D:/VerlilogCode/ComputerStructure/exp3/ALU/ALU.srcs/sources_1/new/SUB.v,1729991705,verilog,,D:/VerlilogCode/ComputerStructure/exp3/ALU/ALU.srcs/sources_1/new/adder_1bit.v,,SUB,,,,,,,,
+D:/VerlilogCode/ComputerStructure/exp3/ALU/ALU.srcs/sources_1/new/adder_1bit.v,1729993855,verilog,,D:/VerlilogCode/ComputerStructure/exp3/ALU/ALU.srcs/sources_1/new/adder_32bit.v,,adder_1bit,,,,,,,,
+D:/VerlilogCode/ComputerStructure/exp3/ALU/ALU.srcs/sources_1/new/adder_32bit.v,1729997076,verilog,,D:/VerlilogCode/ComputerStructure/exp3/ALU/ALU.srcs/sources_1/new/adder_8bit.v,,adder_32bit,,,,,,,,
+D:/VerlilogCode/ComputerStructure/exp3/ALU/ALU.srcs/sources_1/new/adder_8bit.v,1729996696,verilog,,D:/VerlilogCode/ComputerStructure/exp3/ALU/ALU.srcs/sim_1/new/sim_ALU_8.v,,adder_8bit,,,,,,,,

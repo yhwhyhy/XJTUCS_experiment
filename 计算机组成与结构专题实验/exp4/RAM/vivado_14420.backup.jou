@@ -1,0 +1,53 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Nov  9 16:16:25 2024
+# Process ID: 14420
+# Current directory: D:/VerlilogCode/ComputerStructure/exp4/RAM
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16356 D:\VerlilogCode\ComputerStructure\exp4\RAM\RAM.xpr
+# Log file: D:/VerlilogCode/ComputerStructure/exp4/RAM/vivado.log
+# Journal file: D:/VerlilogCode/ComputerStructure/exp4/RAM\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/VerlilogCode/ComputerStructure/exp4/RAM/RAM.xpr
+update_compile_order -fileset sources_1
+close [ open D:/VerlilogCode/ComputerStructure/exp4/RAM/RAM.srcs/sources_1/new/RAM_1Kx16_inout.v w ]
+add_files D:/VerlilogCode/ComputerStructure/exp4/RAM/RAM.srcs/sources_1/new/RAM_1Kx16_inout.v
+update_compile_order -fileset sources_1
+close [ open D:/VerlilogCode/ComputerStructure/exp4/RAM/RAM.srcs/sources_1/new/RAM_4Kx32_inout.v w ]
+add_files D:/VerlilogCode/ComputerStructure/exp4/RAM/RAM.srcs/sources_1/new/RAM_4Kx32_inout.v
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/VerlilogCode/ComputerStructure/exp4/RAM/RAM.srcs/sim_1/new/sim_RAM1Kx16_io.v w ]
+add_files -fileset sim_1 D:/VerlilogCode/ComputerStructure/exp4/RAM/RAM.srcs/sim_1/new/sim_RAM1Kx16_io.v
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top sim_RAM1Kx16b [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source sim_RAM1Kx16b.tcl
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top sim_RAM1Kx16_io [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source sim_RAM1Kx16_io.tcl
+close_sim
+launch_simulation
+source sim_RAM1Kx16_io.tcl
+close_sim
+launch_simulation
+source sim_RAM1Kx16_io.tcl
+close_sim
+launch_simulation
+source sim_RAM1Kx16_io.tcl
+close_sim

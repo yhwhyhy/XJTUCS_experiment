@@ -1,0 +1,9 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+D:/VerlilogCode/ComputerStructure/exp2/FiniteStateMachine/FiniteStateMachine.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+D:/VerlilogCode/ComputerStructure/exp2/FiniteStateMachine/FiniteStateMachine.srcs/sim_1/new/sim_FSM_case.v,1729854806,verilog,,,,sim_FSM_case,,,,,,,,
+D:/VerlilogCode/ComputerStructure/exp2/FiniteStateMachine/FiniteStateMachine.srcs/sim_1/new/sim_FSM_cf.v,1729416056,verilog,,,,sim_FSM_cf,,,,,,,,
+D:/VerlilogCode/ComputerStructure/exp2/FiniteStateMachine/FiniteStateMachine.srcs/sources_1/new/FSM_case.v,1729392909,verilog,,D:/VerlilogCode/ComputerStructure/exp2/FiniteStateMachine/FiniteStateMachine.srcs/sim_1/new/sim_FSM_case.v,,FSM_case,,,,,,,,
+D:/VerlilogCode/ComputerStructure/exp2/FiniteStateMachine/FiniteStateMachine.srcs/sources_1/new/FSM_caseif.v,1729395159,verilog,,D:/VerlilogCode/ComputerStructure/exp2/FiniteStateMachine/FiniteStateMachine.srcs/sim_1/new/sim_FSM_cf.v,,FSM_caseif,,,,,,,,

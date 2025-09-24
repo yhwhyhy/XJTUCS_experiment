@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Oct 17 23:08:05 2024
+# Process ID: 4336
+# Current directory: D:/VerlilogCode/ComputerStructure/exp1/Mux41_with_ControlledBuffer/Mux41_with_ControlledBuffer.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source D:/VerlilogCode/ComputerStructure/exp1/Mux41_with_ControlledBuffer/Mux41_with_ControlledBuffer.sim/sim_1/behav/xsim/xsim.dir/SimMux41_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/VerlilogCode/ComputerStructure/exp1/Mux41_with_ControlledBuffer/Mux41_with_ControlledBuffer.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: D:/VerlilogCode/ComputerStructure/exp1/Mux41_with_ControlledBuffer/Mux41_with_ControlledBuffer.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source D:/VerlilogCode/ComputerStructure/exp1/Mux41_with_ControlledBuffer/Mux41_with_ControlledBuffer.sim/sim_1/behav/xsim/xsim.dir/SimMux41_behav/webtalk/xsim_webtalk.tcl -notrace

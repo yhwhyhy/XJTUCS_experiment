@@ -1,0 +1,1106 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Dec 20 22:40:55 2024
+# Process ID: 19184
+# Current directory: D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3668 D:\VerlilogCode\ComputerStructure\exp6\Pipelined_Processer\Pipelined_Processer.xpr
+# Log file: D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/vivado.log
+# Journal file: D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/vivado/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcsg324-1
+Top: Pipelined_Processer
+ERROR: [Synth 8-2576] procedural assignment to a non-register RegWrite_out is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/EX_MA.v:50]
+ERROR: [Synth 8-2576] procedural assignment to a non-register MemToreg_out is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/EX_MA.v:51]
+ERROR: [Synth 8-2576] procedural assignment to a non-register MemWrite_out is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/EX_MA.v:52]
+ERROR: [Synth 8-2576] procedural assignment to a non-register MemRead_out is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/EX_MA.v:53]
+INFO: [Synth 8-2350] module EX_MA ignored due to previous errors [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/EX_MA.v:23]
+Failed to read verilog 'D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/EX_MA.v'
+1 Infos, 0 Warnings, 0 Critical Warnings and 5 Errors encountered.
+synth_design failed
+ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcsg324-1
+Top: Pipelined_Processer
+ERROR: [Synth 8-2576] procedural assignment to a non-register ForwardAD is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/HazardControlUnit.v:57]
+ERROR: [Synth 8-2576] procedural assignment to a non-register ForwardBD is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/HazardControlUnit.v:58]
+ERROR: [Synth 8-1031] RegWrireE is not declared [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/HazardControlUnit.v:62]
+ERROR: [Synth 8-2576] procedural assignment to a non-register StallD is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/HazardControlUnit.v:64]
+ERROR: [Synth 8-2576] procedural assignment to a non-register StallF is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/HazardControlUnit.v:65]
+ERROR: [Synth 8-2576] procedural assignment to a non-register FlushE is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/HazardControlUnit.v:66]
+INFO: [Synth 8-2350] module HazardControlUnit ignored due to previous errors [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/HazardControlUnit.v:23]
+Failed to read verilog 'D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/HazardControlUnit.v'
+1 Infos, 0 Warnings, 0 Critical Warnings and 7 Errors encountered.
+synth_design failed
+ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcsg324-1
+Top: Pipelined_Processer
+ERROR: [Synth 8-2576] procedural assignment to a non-register RegWrite_out is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/MA_WB.v:44]
+ERROR: [Synth 8-2576] procedural assignment to a non-register MemToReg_out is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/MA_WB.v:45]
+ERROR: [Synth 8-2576] procedural assignment to a non-register ReadData_out is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/MA_WB.v:46]
+ERROR: [Synth 8-2576] procedural assignment to a non-register ALUResult_out is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/MA_WB.v:47]
+ERROR: [Synth 8-2576] procedural assignment to a non-register WriteReg_out is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/MA_WB.v:48]
+INFO: [Synth 8-2350] module MA_WB ignored due to previous errors [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/MA_WB.v:23]
+Failed to read verilog 'D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/MA_WB.v'
+1 Infos, 0 Warnings, 0 Critical Warnings and 6 Errors encountered.
+synth_design failed
+ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcsg324-1
+Top: Pipelined_Processer
+ERROR: [Synth 8-2576] procedural assignment to a non-register PCBranchD is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:112]
+ERROR: [Synth 8-2576] procedural assignment to a non-register WriteRegE is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:260]
+ERROR: [Synth 8-2576] procedural assignment to a non-register WriteRegE is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:261]
+ERROR: [Synth 8-2576] procedural assignment to a non-register ResultW is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:264]
+ERROR: [Synth 8-2576] procedural assignment to a non-register ResultW is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:265]
+ERROR: [Synth 8-2576] procedural assignment to a non-register SrcAE is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:269]
+ERROR: [Synth 8-2576] procedural assignment to a non-register SrcAE is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:270]
+ERROR: [Synth 8-2576] procedural assignment to a non-register SrcAE is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:271]
+ERROR: [Synth 8-2576] procedural assignment to a non-register SrcAE is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:272]
+ERROR: [Synth 8-2576] procedural assignment to a non-register WriteDataE is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:277]
+ERROR: [Synth 8-2576] procedural assignment to a non-register WriteDataE is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:278]
+ERROR: [Synth 8-2576] procedural assignment to a non-register WriteDataE is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:279]
+ERROR: [Synth 8-2576] procedural assignment to a non-register SrcBE is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:280]
+ERROR: [Synth 8-2576] procedural assignment to a non-register SrcBE is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:284]
+ERROR: [Synth 8-2576] procedural assignment to a non-register SrcBE is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:285]
+INFO: [Synth 8-2350] module Pipelined_Processer ignored due to previous errors [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:23]
+Failed to read verilog 'D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v'
+1 Infos, 0 Warnings, 0 Critical Warnings and 16 Errors encountered.
+synth_design failed
+ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcsg324-1
+Top: Pipelined_Processer
+ERROR: [Synth 8-2576] procedural assignment to a non-register WriteRegE is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:260]
+ERROR: [Synth 8-2576] procedural assignment to a non-register WriteRegE is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:261]
+ERROR: [Synth 8-2576] procedural assignment to a non-register ResultW is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:264]
+ERROR: [Synth 8-2576] procedural assignment to a non-register ResultW is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:265]
+ERROR: [Synth 8-2576] procedural assignment to a non-register SrcAE is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:269]
+ERROR: [Synth 8-2576] procedural assignment to a non-register SrcAE is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:270]
+ERROR: [Synth 8-2576] procedural assignment to a non-register SrcAE is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:271]
+ERROR: [Synth 8-2576] procedural assignment to a non-register SrcAE is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:272]
+ERROR: [Synth 8-2576] procedural assignment to a non-register WriteDataE is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:277]
+ERROR: [Synth 8-2576] procedural assignment to a non-register WriteDataE is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:278]
+ERROR: [Synth 8-2576] procedural assignment to a non-register WriteDataE is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:279]
+ERROR: [Synth 8-2576] procedural assignment to a non-register SrcBE is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:280]
+ERROR: [Synth 8-2576] procedural assignment to a non-register SrcBE is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:284]
+ERROR: [Synth 8-2576] procedural assignment to a non-register SrcBE is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:285]
+INFO: [Synth 8-2350] module Pipelined_Processer ignored due to previous errors [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:23]
+Failed to read verilog 'D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v'
+1 Infos, 0 Warnings, 0 Critical Warnings and 15 Errors encountered.
+synth_design failed
+ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcsg324-1
+Top: Pipelined_Processer
+ERROR: [Synth 8-2576] procedural assignment to a non-register ResultW is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:264]
+ERROR: [Synth 8-2576] procedural assignment to a non-register ResultW is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:265]
+ERROR: [Synth 8-2576] procedural assignment to a non-register SrcAE is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:269]
+ERROR: [Synth 8-2576] procedural assignment to a non-register SrcAE is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:270]
+ERROR: [Synth 8-2576] procedural assignment to a non-register SrcAE is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:271]
+ERROR: [Synth 8-2576] procedural assignment to a non-register SrcAE is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:272]
+ERROR: [Synth 8-2576] procedural assignment to a non-register WriteDataE is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:277]
+ERROR: [Synth 8-2576] procedural assignment to a non-register WriteDataE is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:278]
+ERROR: [Synth 8-2576] procedural assignment to a non-register WriteDataE is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:279]
+ERROR: [Synth 8-2576] procedural assignment to a non-register SrcBE is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:280]
+ERROR: [Synth 8-2576] procedural assignment to a non-register SrcBE is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:284]
+ERROR: [Synth 8-2576] procedural assignment to a non-register SrcBE is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:285]
+INFO: [Synth 8-2350] module Pipelined_Processer ignored due to previous errors [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:23]
+Failed to read verilog 'D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v'
+1 Infos, 0 Warnings, 0 Critical Warnings and 13 Errors encountered.
+synth_design failed
+ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcsg324-1
+Top: Pipelined_Processer
+ERROR: [Synth 8-2576] procedural assignment to a non-register SrcAE is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:270]
+ERROR: [Synth 8-2576] procedural assignment to a non-register SrcAE is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:271]
+ERROR: [Synth 8-2576] procedural assignment to a non-register SrcAE is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:272]
+ERROR: [Synth 8-2576] procedural assignment to a non-register SrcAE is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:273]
+ERROR: [Synth 8-2576] procedural assignment to a non-register WriteDataE is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:278]
+ERROR: [Synth 8-2576] procedural assignment to a non-register WriteDataE is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:279]
+ERROR: [Synth 8-2576] procedural assignment to a non-register WriteDataE is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:280]
+ERROR: [Synth 8-2576] procedural assignment to a non-register SrcBE is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:281]
+ERROR: [Synth 8-2576] procedural assignment to a non-register SrcBE is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:285]
+ERROR: [Synth 8-2576] procedural assignment to a non-register SrcBE is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:286]
+INFO: [Synth 8-2350] module Pipelined_Processer ignored due to previous errors [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:23]
+Failed to read verilog 'D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v'
+1 Infos, 0 Warnings, 0 Critical Warnings and 11 Errors encountered.
+synth_design failed
+ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcsg324-1
+Top: Pipelined_Processer
+ERROR: [Synth 8-2576] procedural assignment to a non-register WriteDataE is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:278]
+ERROR: [Synth 8-2576] procedural assignment to a non-register WriteDataE is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:279]
+ERROR: [Synth 8-2576] procedural assignment to a non-register WriteDataE is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:280]
+INFO: [Synth 8-2350] module Pipelined_Processer ignored due to previous errors [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:23]
+Failed to read verilog 'D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v'
+1 Infos, 0 Warnings, 0 Critical Warnings and 4 Errors encountered.
+synth_design failed
+ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcsg324-1
+Top: Pipelined_Processer
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 948.992 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Pipelined_Processer' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:23]
+INFO: [Synth 8-638] synthesizing module 'ProgramCounter' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ProgramCounter.v:23]
+INFO: [Synth 8-256] done synthesizing module 'ProgramCounter' (1#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ProgramCounter.v:23]
+INFO: [Synth 8-638] synthesizing module 'InstructionMemory' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/IMem.v:23]
+	Parameter Instruction_Width bound to: 32 - type: integer 
+	Parameter IMEM_Size bound to: 64 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'InstructionMemory' (2#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/IMem.v:23]
+INFO: [Synth 8-638] synthesizing module 'FI_ID' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/FI_ID.v:23]
+INFO: [Synth 8-256] done synthesizing module 'FI_ID' (3#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/FI_ID.v:23]
+ERROR: [Synth 8-448] named port connection 'EN' does not exist for instance 'PipeLinedReg1' of module 'FI_ID' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:54]
+INFO: [Synth 8-638] synthesizing module 'CU_completed' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/CU_completed.v:23]
+ERROR: [Synth 8-285] failed synthesizing module 'CU_completed' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/CU_completed.v:23]
+ERROR: [Synth 8-285] failed synthesizing module 'Pipelined_Processer' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 987.758 ; gain = 38.766
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+8 Infos, 0 Warnings, 0 Critical Warnings and 4 Errors encountered.
+synth_design failed
+ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcsg324-1
+Top: Pipelined_Processer
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 988.902 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Pipelined_Processer' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:23]
+INFO: [Synth 8-638] synthesizing module 'ProgramCounter' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ProgramCounter.v:23]
+INFO: [Synth 8-256] done synthesizing module 'ProgramCounter' (1#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ProgramCounter.v:23]
+INFO: [Synth 8-638] synthesizing module 'InstructionMemory' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/IMem.v:23]
+	Parameter Instruction_Width bound to: 32 - type: integer 
+	Parameter IMEM_Size bound to: 64 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'InstructionMemory' (2#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/IMem.v:23]
+INFO: [Synth 8-638] synthesizing module 'FI_ID' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/FI_ID.v:23]
+INFO: [Synth 8-256] done synthesizing module 'FI_ID' (3#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/FI_ID.v:23]
+INFO: [Synth 8-638] synthesizing module 'CU_completed' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/CU_completed.v:23]
+INFO: [Synth 8-256] done synthesizing module 'CU_completed' (4#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/CU_completed.v:23]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:93]
+INFO: [Synth 8-638] synthesizing module 'ALUControlUnit' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ALUControlUnit.v:23]
+INFO: [Synth 8-256] done synthesizing module 'ALUControlUnit' (5#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ALUControlUnit.v:23]
+ERROR: [Synth 8-448] named port connection 'ALUcontrol' does not exist for instance 'ALUCU' of module 'ALUControlUnit' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:96]
+INFO: [Synth 8-638] synthesizing module 'RegFile' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/RegFile.v:24]
+	Parameter ADDR_SIZE bound to: 5 - type: integer 
+ERROR: [Synth 8-285] failed synthesizing module 'RegFile' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/RegFile.v:24]
+ERROR: [Synth 8-285] failed synthesizing module 'Pipelined_Processer' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 993.680 ; gain = 4.777
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+12 Infos, 1 Warnings, 0 Critical Warnings and 4 Errors encountered.
+synth_design failed
+ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcsg324-1
+Top: Pipelined_Processer
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 993.680 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Pipelined_Processer' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:23]
+INFO: [Synth 8-638] synthesizing module 'ProgramCounter' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ProgramCounter.v:23]
+INFO: [Synth 8-256] done synthesizing module 'ProgramCounter' (1#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ProgramCounter.v:23]
+INFO: [Synth 8-638] synthesizing module 'InstructionMemory' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/IMem.v:23]
+	Parameter Instruction_Width bound to: 32 - type: integer 
+	Parameter IMEM_Size bound to: 64 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'InstructionMemory' (2#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/IMem.v:23]
+INFO: [Synth 8-638] synthesizing module 'FI_ID' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/FI_ID.v:23]
+INFO: [Synth 8-256] done synthesizing module 'FI_ID' (3#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/FI_ID.v:23]
+INFO: [Synth 8-638] synthesizing module 'CU_completed' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/CU_completed.v:23]
+INFO: [Synth 8-256] done synthesizing module 'CU_completed' (4#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/CU_completed.v:23]
+INFO: [Synth 8-638] synthesizing module 'ALUControlUnit' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ALUControlUnit.v:23]
+INFO: [Synth 8-256] done synthesizing module 'ALUControlUnit' (5#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ALUControlUnit.v:23]
+INFO: [Synth 8-638] synthesizing module 'RegFile' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/RegFile.v:24]
+	Parameter ADDR_SIZE bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'RegFile' (6#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/RegFile.v:24]
+WARNING: [Synth 8-689] width (1) of port connection 'WriteReg' does not match port width (5) of module 'RegFile' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:103]
+INFO: [Synth 8-638] synthesizing module 'SignExt' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/SignExt.v:23]
+INFO: [Synth 8-256] done synthesizing module 'SignExt' (7#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/SignExt.v:23]
+INFO: [Synth 8-638] synthesizing module 'ID_EX' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ID_EX.v:23]
+INFO: [Synth 8-256] done synthesizing module 'ID_EX' (8#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ID_EX.v:23]
+WARNING: [Synth 8-689] width (4) of port connection 'ALUControl_in' does not match port width (1) of module 'ID_EX' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:136]
+WARNING: [Synth 8-350] instance 'PipeLinedReg2' of module 'ID_EX' requires 28 connections, but only 27 given [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:129]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:166]
+INFO: [Synth 8-638] synthesizing module 'ALU_noclk' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ALU_noclk.v:23]
+INFO: [Synth 8-256] done synthesizing module 'ALU_noclk' (9#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ALU_noclk.v:23]
+WARNING: [Synth 8-689] width (1) of port connection 'ALUControl' does not match port width (4) of module 'ALU_noclk' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:169]
+ERROR: [Synth 8-448] named port connection 'REsult' does not exist for instance 'nolabel_line166' of module 'ALU_noclk' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:170]
+INFO: [Synth 8-638] synthesizing module 'EX_MA' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/EX_MA.v:23]
+ERROR: [Synth 8-285] failed synthesizing module 'EX_MA' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/EX_MA.v:23]
+ERROR: [Synth 8-285] failed synthesizing module 'Pipelined_Processer' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 994.602 ; gain = 0.922
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+20 Infos, 5 Warnings, 0 Critical Warnings and 4 Errors encountered.
+synth_design failed
+ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcsg324-1
+Top: Pipelined_Processer
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 994.602 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Pipelined_Processer' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:23]
+INFO: [Synth 8-638] synthesizing module 'ProgramCounter' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ProgramCounter.v:23]
+INFO: [Synth 8-256] done synthesizing module 'ProgramCounter' (1#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ProgramCounter.v:23]
+INFO: [Synth 8-638] synthesizing module 'InstructionMemory' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/IMem.v:23]
+	Parameter Instruction_Width bound to: 32 - type: integer 
+	Parameter IMEM_Size bound to: 64 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'InstructionMemory' (2#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/IMem.v:23]
+INFO: [Synth 8-638] synthesizing module 'FI_ID' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/FI_ID.v:23]
+INFO: [Synth 8-256] done synthesizing module 'FI_ID' (3#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/FI_ID.v:23]
+INFO: [Synth 8-638] synthesizing module 'CU_completed' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/CU_completed.v:23]
+INFO: [Synth 8-256] done synthesizing module 'CU_completed' (4#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/CU_completed.v:23]
+INFO: [Synth 8-638] synthesizing module 'ALUControlUnit' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ALUControlUnit.v:23]
+INFO: [Synth 8-256] done synthesizing module 'ALUControlUnit' (5#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ALUControlUnit.v:23]
+INFO: [Synth 8-638] synthesizing module 'RegFile' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/RegFile.v:24]
+	Parameter ADDR_SIZE bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'RegFile' (6#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/RegFile.v:24]
+WARNING: [Synth 8-689] width (1) of port connection 'WriteReg' does not match port width (5) of module 'RegFile' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:103]
+INFO: [Synth 8-638] synthesizing module 'SignExt' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/SignExt.v:23]
+INFO: [Synth 8-256] done synthesizing module 'SignExt' (7#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/SignExt.v:23]
+INFO: [Synth 8-638] synthesizing module 'ID_EX' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ID_EX.v:23]
+INFO: [Synth 8-256] done synthesizing module 'ID_EX' (8#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ID_EX.v:23]
+WARNING: [Synth 8-689] width (4) of port connection 'ALUControl_in' does not match port width (1) of module 'ID_EX' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:136]
+WARNING: [Synth 8-350] instance 'PipeLinedReg2' of module 'ID_EX' requires 28 connections, but only 27 given [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:129]
+INFO: [Synth 8-638] synthesizing module 'ALU_noclk' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ALU_noclk.v:23]
+INFO: [Synth 8-256] done synthesizing module 'ALU_noclk' (9#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ALU_noclk.v:23]
+WARNING: [Synth 8-689] width (1) of port connection 'ALUControl' does not match port width (4) of module 'ALU_noclk' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:169]
+INFO: [Synth 8-638] synthesizing module 'EX_MA' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/EX_MA.v:23]
+INFO: [Synth 8-256] done synthesizing module 'EX_MA' (10#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/EX_MA.v:23]
+ERROR: [Synth 8-448] named port connection 'MemToReg_in' does not exist for instance 'PipeLinedReg3' of module 'EX_MA' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:182]
+ERROR: [Synth 8-448] named port connection 'MemToReg_out' does not exist for instance 'PipeLinedReg3' of module 'EX_MA' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:189]
+INFO: [Synth 8-638] synthesizing module 'DataMemory' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/DataMemory.v:23]
+	Parameter Addr_Width bound to: 12 - type: integer 
+	Parameter Data_Width bound to: 32 - type: integer 
+ERROR: [Synth 8-285] failed synthesizing module 'DataMemory' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/DataMemory.v:23]
+ERROR: [Synth 8-285] failed synthesizing module 'Pipelined_Processer' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1035.059 ; gain = 40.457
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+22 Infos, 4 Warnings, 0 Critical Warnings and 5 Errors encountered.
+synth_design failed
+ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcsg324-1
+Top: Pipelined_Processer
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1035.059 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Pipelined_Processer' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:23]
+INFO: [Synth 8-638] synthesizing module 'ProgramCounter' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ProgramCounter.v:23]
+INFO: [Synth 8-256] done synthesizing module 'ProgramCounter' (1#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ProgramCounter.v:23]
+INFO: [Synth 8-638] synthesizing module 'InstructionMemory' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/IMem.v:23]
+	Parameter Instruction_Width bound to: 32 - type: integer 
+	Parameter IMEM_Size bound to: 64 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'InstructionMemory' (2#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/IMem.v:23]
+INFO: [Synth 8-638] synthesizing module 'FI_ID' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/FI_ID.v:23]
+INFO: [Synth 8-256] done synthesizing module 'FI_ID' (3#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/FI_ID.v:23]
+INFO: [Synth 8-638] synthesizing module 'CU_completed' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/CU_completed.v:23]
+INFO: [Synth 8-256] done synthesizing module 'CU_completed' (4#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/CU_completed.v:23]
+INFO: [Synth 8-638] synthesizing module 'ALUControlUnit' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ALUControlUnit.v:23]
+INFO: [Synth 8-256] done synthesizing module 'ALUControlUnit' (5#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ALUControlUnit.v:23]
+INFO: [Synth 8-638] synthesizing module 'RegFile' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/RegFile.v:24]
+	Parameter ADDR_SIZE bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'RegFile' (6#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/RegFile.v:24]
+WARNING: [Synth 8-689] width (1) of port connection 'WriteReg' does not match port width (5) of module 'RegFile' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:103]
+INFO: [Synth 8-638] synthesizing module 'SignExt' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/SignExt.v:23]
+INFO: [Synth 8-256] done synthesizing module 'SignExt' (7#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/SignExt.v:23]
+INFO: [Synth 8-638] synthesizing module 'ID_EX' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ID_EX.v:23]
+INFO: [Synth 8-256] done synthesizing module 'ID_EX' (8#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ID_EX.v:23]
+WARNING: [Synth 8-689] width (4) of port connection 'ALUControl_in' does not match port width (1) of module 'ID_EX' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:136]
+WARNING: [Synth 8-350] instance 'PipeLinedReg2' of module 'ID_EX' requires 28 connections, but only 27 given [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:129]
+INFO: [Synth 8-638] synthesizing module 'ALU_noclk' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ALU_noclk.v:23]
+INFO: [Synth 8-256] done synthesizing module 'ALU_noclk' (9#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ALU_noclk.v:23]
+WARNING: [Synth 8-689] width (1) of port connection 'ALUControl' does not match port width (4) of module 'ALU_noclk' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:169]
+INFO: [Synth 8-638] synthesizing module 'EX_MA' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/EX_MA.v:23]
+INFO: [Synth 8-256] done synthesizing module 'EX_MA' (10#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/EX_MA.v:23]
+INFO: [Synth 8-638] synthesizing module 'DataMemory' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/DataMemory.v:23]
+	Parameter Addr_Width bound to: 12 - type: integer 
+	Parameter Data_Width bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'DataMemory' (11#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/DataMemory.v:23]
+WARNING: [Synth 8-689] width (32) of port connection 'Address' does not match port width (12) of module 'DataMemory' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:199]
+INFO: [Synth 8-638] synthesizing module 'MA_WB' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/MA_WB.v:23]
+INFO: [Synth 8-256] done synthesizing module 'MA_WB' (12#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/MA_WB.v:23]
+WARNING: [Synth 8-689] width (1) of port connection 'WriteReg_out' does not match port width (5) of module 'MA_WB' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:219]
+INFO: [Synth 8-638] synthesizing module 'HazardControlUnit' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/HazardControlUnit.v:23]
+INFO: [Synth 8-256] done synthesizing module 'HazardControlUnit' (13#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/HazardControlUnit.v:23]
+ERROR: [Synth 8-448] named port connection 'RegWrireE' does not exist for instance 'HazardHandle' of module 'HazardControlUnit' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:224]
+WARNING: [Synth 8-689] width (1) of port connection 'WriteRegW' does not match port width (5) of module 'HazardControlUnit' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:226]
+WARNING: [Synth 8-689] width (1) of port connection 'ForwardAE' does not match port width (2) of module 'HazardControlUnit' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:231]
+WARNING: [Synth 8-689] width (1) of port connection 'ForwardBE' does not match port width (2) of module 'HazardControlUnit' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:232]
+WARNING: [Synth 8-151] case item 2'b10 is unreachable [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:272]
+INFO: [Synth 8-226] default block is never used [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:269]
+WARNING: [Synth 8-151] case item 2'b10 is unreachable [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:280]
+INFO: [Synth 8-226] default block is never used [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:277]
+ERROR: [Synth 8-285] failed synthesizing module 'Pipelined_Processer' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1299.324 ; gain = 264.266
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+29 Infos, 11 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design failed
+ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcsg324-1
+Top: Pipelined_Processer
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1299.324 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Pipelined_Processer' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:23]
+INFO: [Synth 8-638] synthesizing module 'ProgramCounter' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ProgramCounter.v:23]
+INFO: [Synth 8-256] done synthesizing module 'ProgramCounter' (1#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ProgramCounter.v:23]
+INFO: [Synth 8-638] synthesizing module 'InstructionMemory' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/IMem.v:23]
+	Parameter Instruction_Width bound to: 32 - type: integer 
+	Parameter IMEM_Size bound to: 64 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'InstructionMemory' (2#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/IMem.v:23]
+INFO: [Synth 8-638] synthesizing module 'FI_ID' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/FI_ID.v:23]
+INFO: [Synth 8-256] done synthesizing module 'FI_ID' (3#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/FI_ID.v:23]
+INFO: [Synth 8-638] synthesizing module 'CU_completed' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/CU_completed.v:23]
+INFO: [Synth 8-256] done synthesizing module 'CU_completed' (4#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/CU_completed.v:23]
+INFO: [Synth 8-638] synthesizing module 'ALUControlUnit' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ALUControlUnit.v:23]
+INFO: [Synth 8-256] done synthesizing module 'ALUControlUnit' (5#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ALUControlUnit.v:23]
+INFO: [Synth 8-638] synthesizing module 'RegFile' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/RegFile.v:24]
+	Parameter ADDR_SIZE bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'RegFile' (6#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/RegFile.v:24]
+WARNING: [Synth 8-689] width (1) of port connection 'WriteReg' does not match port width (5) of module 'RegFile' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:103]
+INFO: [Synth 8-638] synthesizing module 'SignExt' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/SignExt.v:23]
+INFO: [Synth 8-256] done synthesizing module 'SignExt' (7#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/SignExt.v:23]
+INFO: [Synth 8-638] synthesizing module 'ID_EX' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ID_EX.v:23]
+INFO: [Synth 8-256] done synthesizing module 'ID_EX' (8#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ID_EX.v:23]
+WARNING: [Synth 8-689] width (4) of port connection 'ALUControl_in' does not match port width (1) of module 'ID_EX' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:136]
+WARNING: [Synth 8-350] instance 'PipeLinedReg2' of module 'ID_EX' requires 28 connections, but only 27 given [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:129]
+INFO: [Synth 8-638] synthesizing module 'ALU_noclk' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ALU_noclk.v:23]
+INFO: [Synth 8-256] done synthesizing module 'ALU_noclk' (9#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ALU_noclk.v:23]
+WARNING: [Synth 8-689] width (1) of port connection 'ALUControl' does not match port width (4) of module 'ALU_noclk' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:169]
+INFO: [Synth 8-638] synthesizing module 'EX_MA' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/EX_MA.v:23]
+INFO: [Synth 8-256] done synthesizing module 'EX_MA' (10#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/EX_MA.v:23]
+INFO: [Synth 8-638] synthesizing module 'DataMemory' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/DataMemory.v:23]
+	Parameter Addr_Width bound to: 12 - type: integer 
+	Parameter Data_Width bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'DataMemory' (11#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/DataMemory.v:23]
+WARNING: [Synth 8-689] width (32) of port connection 'Address' does not match port width (12) of module 'DataMemory' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:199]
+INFO: [Synth 8-638] synthesizing module 'MA_WB' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/MA_WB.v:23]
+INFO: [Synth 8-256] done synthesizing module 'MA_WB' (12#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/MA_WB.v:23]
+WARNING: [Synth 8-689] width (1) of port connection 'WriteReg_out' does not match port width (5) of module 'MA_WB' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:219]
+INFO: [Synth 8-638] synthesizing module 'HazardControlUnit' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/HazardControlUnit.v:23]
+INFO: [Synth 8-256] done synthesizing module 'HazardControlUnit' (13#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/HazardControlUnit.v:23]
+WARNING: [Synth 8-689] width (1) of port connection 'WriteRegW' does not match port width (5) of module 'HazardControlUnit' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:226]
+WARNING: [Synth 8-689] width (1) of port connection 'ForwardAE' does not match port width (2) of module 'HazardControlUnit' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:231]
+WARNING: [Synth 8-689] width (1) of port connection 'ForwardBE' does not match port width (2) of module 'HazardControlUnit' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:232]
+WARNING: [Synth 8-151] case item 2'b10 is unreachable [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:272]
+INFO: [Synth 8-226] default block is never used [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:269]
+WARNING: [Synth 8-151] case item 2'b10 is unreachable [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:280]
+INFO: [Synth 8-226] default block is never used [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:277]
+WARNING: [Synth 8-3848] Net RegDstD in module/entity Pipelined_Processer does not have driver. [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:70]
+WARNING: [Synth 8-3848] Net ALUSrcE in module/entity Pipelined_Processer does not have driver. [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:121]
+INFO: [Synth 8-256] done synthesizing module 'Pipelined_Processer' (14#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:23]
+WARNING: [Synth 8-3331] design EX_MA has unconnected port MemRead_in
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1301.410 ; gain = 2.086
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin PipeLinedReg2:RegDst_in to constant 0 [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:129]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 1301.410 ; gain = 2.086
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:42 ; elapsed = 00:00:38 . Memory (MB): peak = 1708.023 ; gain = 408.699
+34 Infos, 15 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:43 ; elapsed = 00:00:38 . Memory (MB): peak = 1708.023 ; gain = 408.699
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Pipelined_Processer' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Pipelined_Processer_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ALUControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ALU_noclk.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_noclk
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/CU_completed.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CU_completed
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/EX_MA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX_MA
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/FI_ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FI_ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/HazardControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HazardControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ID_EX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_EX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/IMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/MA_WB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MA_WB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ProgramCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ProgramCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/RegFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/SignExt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignExt
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipelined_Processer
+INFO: [VRFC 10-2458] undeclared symbol RegDst, assumed default net type wire [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:84]
+INFO: [VRFC 10-2458] undeclared symbol RegWriteW, assumed default net type wire [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:100]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: E:/vivado/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto d4747128847c466b8f66c9125655a02d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Pipelined_Processer_behav xil_defaultlib.Pipelined_Processer xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2538] module instantiation should have an instance name [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:166]
+ERROR: [VRFC 10-2063] Module <EX_MA> not found while processing module instance <PipeLinedReg3> [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:179]
+ERROR: [VRFC 10-2063] Module <DataMemory> not found while processing module instance <DM> [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:197]
+ERROR: [VRFC 10-2063] Module <MA_WB> not found while processing module instance <PipeLinedReg4> [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:208]
+ERROR: [VRFC 10-2063] Module <HazardControlUnit> not found while processing module instance <HazardHandle> [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:221]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+close_design
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Pipelined_Processer' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Pipelined_Processer_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: E:/vivado/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto d4747128847c466b8f66c9125655a02d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Pipelined_Processer_behav xil_defaultlib.Pipelined_Processer xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2538] module instantiation should have an instance name [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:166]
+ERROR: [VRFC 10-2063] Module <EX_MA> not found while processing module instance <PipeLinedReg3> [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:179]
+ERROR: [VRFC 10-2063] Module <DataMemory> not found while processing module instance <DM> [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:197]
+ERROR: [VRFC 10-2063] Module <MA_WB> not found while processing module instance <PipeLinedReg4> [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:208]
+ERROR: [VRFC 10-2063] Module <HazardControlUnit> not found while processing module instance <HazardHandle> [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:221]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+file mkdir D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sim_1/new/sim_PipeLinedProcesser.v w ]
+add_files -fileset sim_1 D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sim_1/new/sim_PipeLinedProcesser.v
+update_compile_order -fileset sim_1
+set_property top sim_PipeLinedProcesser [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'sim_PipeLinedProcesser' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj sim_PipeLinedProcesser_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sim_1/new/sim_PipeLinedProcesser.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim_PipeLinedProcesser
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: E:/vivado/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto d4747128847c466b8f66c9125655a02d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sim_PipeLinedProcesser_behav xil_defaultlib.sim_PipeLinedProcesser xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2063] Module <PipeLinedProcesser> not found while processing module instance <test> [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sim_1/new/sim_PipeLinedProcesser.v:32]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'sim_PipeLinedProcesser' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj sim_PipeLinedProcesser_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ALUControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ALU_noclk.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_noclk
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/CU_completed.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CU_completed
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/EX_MA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX_MA
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/FI_ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FI_ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/HazardControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HazardControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ID_EX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_EX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/IMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/MA_WB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MA_WB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipelined_Processer
+INFO: [VRFC 10-2458] undeclared symbol RegDst, assumed default net type wire [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:84]
+INFO: [VRFC 10-2458] undeclared symbol RegWriteW, assumed default net type wire [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:100]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ProgramCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ProgramCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/RegFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/SignExt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignExt
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sim_1/new/sim_PipeLinedProcesser.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim_PipeLinedProcesser
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: E:/vivado/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto d4747128847c466b8f66c9125655a02d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sim_PipeLinedProcesser_behav xil_defaultlib.sim_PipeLinedProcesser xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2538] module instantiation should have an instance name [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:166]
+ERROR: [VRFC 10-2063] Module <EX_MA> not found while processing module instance <PipeLinedReg3> [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:179]
+ERROR: [VRFC 10-2063] Module <DataMemory> not found while processing module instance <DM> [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:197]
+ERROR: [VRFC 10-2063] Module <MA_WB> not found while processing module instance <PipeLinedReg4> [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:208]
+ERROR: [VRFC 10-2063] Module <HazardControlUnit> not found while processing module instance <HazardHandle> [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:221]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'sim_PipeLinedProcesser' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj sim_PipeLinedProcesser_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ALUControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ALU_noclk.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_noclk
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/CU_completed.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CU_completed
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/EX_MA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX_MA
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/FI_ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FI_ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/HazardControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HazardControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ID_EX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_EX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/IMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/MA_WB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MA_WB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipelined_Processer
+INFO: [VRFC 10-2458] undeclared symbol RegDst, assumed default net type wire [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:84]
+INFO: [VRFC 10-2458] undeclared symbol RegWriteW, assumed default net type wire [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:100]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ProgramCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ProgramCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/RegFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/SignExt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignExt
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sim_1/new/sim_PipeLinedProcesser.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim_PipeLinedProcesser
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: E:/vivado/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto d4747128847c466b8f66c9125655a02d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sim_PipeLinedProcesser_behav xil_defaultlib.sim_PipeLinedProcesser xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 5 for port WriteReg [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:103]
+WARNING: [VRFC 10-278] actual bit length 4 differs from formal bit length 1 for port ALUControl_in [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:136]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port ALUControl [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:169]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 12 for port Address [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:199]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 5 for port WriteReg_out [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:219]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 5 for port WriteRegW [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:226]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 2 for port ForwardAE [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:231]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 2 for port ForwardBE [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:232]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ProgramCounter
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.FI_ID
+Compiling module xil_defaultlib.CU_completed
+Compiling module xil_defaultlib.ALUControlUnit
+Compiling module xil_defaultlib.RegFile
+Compiling module xil_defaultlib.SignExt
+Compiling module xil_defaultlib.ID_EX
+Compiling module xil_defaultlib.ALU_noclk
+Compiling module xil_defaultlib.EX_MA
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.MA_WB
+Compiling module xil_defaultlib.HazardControlUnit
+Compiling module xil_defaultlib.Pipelined_Processer
+Compiling module xil_defaultlib.sim_PipeLinedProcesser
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sim_PipeLinedProcesser_behav
+
+****** Webtalk v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.sim/sim_1/behav/xsim/xsim.dir/sim_PipeLinedProcesser_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sat Dec 21 00:31:09 2024...
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "sim_PipeLinedProcesser_behav -key {Behavioral:sim_1:Functional:sim_PipeLinedProcesser} -tclbatch {sim_PipeLinedProcesser.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+source sim_PipeLinedProcesser.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'sim_PipeLinedProcesser_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 1708.023 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'sim_PipeLinedProcesser' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj sim_PipeLinedProcesser_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ALUControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ALU_noclk.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_noclk
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/CU_completed.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CU_completed
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/EX_MA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX_MA
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/FI_ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FI_ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/HazardControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HazardControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ID_EX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_EX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/IMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/MA_WB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MA_WB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipelined_Processer
+INFO: [VRFC 10-2458] undeclared symbol RegDst, assumed default net type wire [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:85]
+INFO: [VRFC 10-2458] undeclared symbol RegWriteW, assumed default net type wire [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:101]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register StallF is not permitted, left-hand side should be reg/integer/time/genvar [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:38]
+ERROR: [VRFC 10-1280] procedural assignment to a non-register StallF is not permitted, left-hand side should be reg/integer/time/genvar [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:38]
+ERROR: [VRFC 10-1040] module Pipelined_Processer ignored due to previous errors [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:23]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcsg324-1
+Top: Pipelined_Processer
+ERROR: [Synth 8-2576] procedural assignment to a non-register StallF is not permitted [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:38]
+INFO: [Synth 8-2350] module Pipelined_Processer ignored due to previous errors [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:23]
+Failed to read verilog 'D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v'
+1 Infos, 0 Warnings, 0 Critical Warnings and 2 Errors encountered.
+synth_design failed
+ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcsg324-1
+Top: Pipelined_Processer
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1708.023 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Pipelined_Processer' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:23]
+INFO: [Synth 8-638] synthesizing module 'ProgramCounter' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ProgramCounter.v:23]
+INFO: [Synth 8-256] done synthesizing module 'ProgramCounter' (1#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ProgramCounter.v:23]
+INFO: [Synth 8-638] synthesizing module 'InstructionMemory' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/IMem.v:23]
+	Parameter Instruction_Width bound to: 32 - type: integer 
+	Parameter IMEM_Size bound to: 64 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'InstructionMemory' (2#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/IMem.v:23]
+INFO: [Synth 8-638] synthesizing module 'FI_ID' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/FI_ID.v:23]
+INFO: [Synth 8-256] done synthesizing module 'FI_ID' (3#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/FI_ID.v:23]
+INFO: [Synth 8-638] synthesizing module 'CU_completed' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/CU_completed.v:23]
+INFO: [Synth 8-256] done synthesizing module 'CU_completed' (4#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/CU_completed.v:23]
+INFO: [Synth 8-638] synthesizing module 'ALUControlUnit' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ALUControlUnit.v:23]
+INFO: [Synth 8-256] done synthesizing module 'ALUControlUnit' (5#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ALUControlUnit.v:23]
+INFO: [Synth 8-638] synthesizing module 'RegFile' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/RegFile.v:24]
+	Parameter ADDR_SIZE bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'RegFile' (6#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/RegFile.v:24]
+WARNING: [Synth 8-689] width (1) of port connection 'WriteReg' does not match port width (5) of module 'RegFile' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:104]
+INFO: [Synth 8-638] synthesizing module 'SignExt' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/SignExt.v:23]
+INFO: [Synth 8-256] done synthesizing module 'SignExt' (7#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/SignExt.v:23]
+INFO: [Synth 8-638] synthesizing module 'ID_EX' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ID_EX.v:23]
+INFO: [Synth 8-256] done synthesizing module 'ID_EX' (8#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ID_EX.v:23]
+WARNING: [Synth 8-689] width (4) of port connection 'ALUControl_in' does not match port width (1) of module 'ID_EX' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:137]
+WARNING: [Synth 8-350] instance 'PipeLinedReg2' of module 'ID_EX' requires 28 connections, but only 27 given [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:130]
+INFO: [Synth 8-638] synthesizing module 'ALU_noclk' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ALU_noclk.v:23]
+INFO: [Synth 8-256] done synthesizing module 'ALU_noclk' (9#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ALU_noclk.v:23]
+WARNING: [Synth 8-689] width (1) of port connection 'ALUControl' does not match port width (4) of module 'ALU_noclk' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:170]
+INFO: [Synth 8-638] synthesizing module 'EX_MA' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/EX_MA.v:23]
+INFO: [Synth 8-256] done synthesizing module 'EX_MA' (10#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/EX_MA.v:23]
+INFO: [Synth 8-638] synthesizing module 'DataMemory' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/DataMemory.v:23]
+	Parameter Addr_Width bound to: 12 - type: integer 
+	Parameter Data_Width bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'DataMemory' (11#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/DataMemory.v:23]
+WARNING: [Synth 8-689] width (32) of port connection 'Address' does not match port width (12) of module 'DataMemory' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:200]
+INFO: [Synth 8-638] synthesizing module 'MA_WB' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/MA_WB.v:23]
+INFO: [Synth 8-256] done synthesizing module 'MA_WB' (12#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/MA_WB.v:23]
+WARNING: [Synth 8-689] width (1) of port connection 'WriteReg_out' does not match port width (5) of module 'MA_WB' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:220]
+INFO: [Synth 8-638] synthesizing module 'HazardControlUnit' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/HazardControlUnit.v:23]
+INFO: [Synth 8-256] done synthesizing module 'HazardControlUnit' (13#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/HazardControlUnit.v:23]
+WARNING: [Synth 8-689] width (1) of port connection 'WriteRegW' does not match port width (5) of module 'HazardControlUnit' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:227]
+WARNING: [Synth 8-689] width (1) of port connection 'ForwardAE' does not match port width (2) of module 'HazardControlUnit' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:232]
+WARNING: [Synth 8-689] width (1) of port connection 'ForwardBE' does not match port width (2) of module 'HazardControlUnit' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:233]
+ERROR: [Synth 8-685] variable 'StallF' should not be used in output port connection [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:240]
+ERROR: [Synth 8-285] failed synthesizing module 'Pipelined_Processer' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1708.023 ; gain = 0.000
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+27 Infos, 9 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design failed
+ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcsg324-1
+Top: Pipelined_Processer
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1708.023 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Pipelined_Processer' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:23]
+INFO: [Synth 8-638] synthesizing module 'ProgramCounter' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ProgramCounter.v:23]
+INFO: [Synth 8-256] done synthesizing module 'ProgramCounter' (1#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ProgramCounter.v:23]
+INFO: [Synth 8-638] synthesizing module 'InstructionMemory' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/IMem.v:23]
+	Parameter Instruction_Width bound to: 32 - type: integer 
+	Parameter IMEM_Size bound to: 64 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'InstructionMemory' (2#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/IMem.v:23]
+INFO: [Synth 8-638] synthesizing module 'FI_ID' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/FI_ID.v:23]
+INFO: [Synth 8-256] done synthesizing module 'FI_ID' (3#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/FI_ID.v:23]
+INFO: [Synth 8-638] synthesizing module 'CU_completed' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/CU_completed.v:23]
+INFO: [Synth 8-256] done synthesizing module 'CU_completed' (4#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/CU_completed.v:23]
+INFO: [Synth 8-638] synthesizing module 'ALUControlUnit' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ALUControlUnit.v:23]
+INFO: [Synth 8-256] done synthesizing module 'ALUControlUnit' (5#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ALUControlUnit.v:23]
+INFO: [Synth 8-638] synthesizing module 'RegFile' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/RegFile.v:24]
+	Parameter ADDR_SIZE bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'RegFile' (6#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/RegFile.v:24]
+WARNING: [Synth 8-689] width (1) of port connection 'WriteReg' does not match port width (5) of module 'RegFile' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:103]
+INFO: [Synth 8-638] synthesizing module 'SignExt' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/SignExt.v:23]
+INFO: [Synth 8-256] done synthesizing module 'SignExt' (7#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/SignExt.v:23]
+INFO: [Synth 8-638] synthesizing module 'ID_EX' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ID_EX.v:23]
+INFO: [Synth 8-256] done synthesizing module 'ID_EX' (8#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ID_EX.v:23]
+WARNING: [Synth 8-689] width (4) of port connection 'ALUControl_in' does not match port width (1) of module 'ID_EX' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:136]
+WARNING: [Synth 8-350] instance 'PipeLinedReg2' of module 'ID_EX' requires 28 connections, but only 27 given [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:129]
+INFO: [Synth 8-638] synthesizing module 'ALU_noclk' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ALU_noclk.v:23]
+INFO: [Synth 8-256] done synthesizing module 'ALU_noclk' (9#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ALU_noclk.v:23]
+WARNING: [Synth 8-689] width (1) of port connection 'ALUControl' does not match port width (4) of module 'ALU_noclk' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:169]
+INFO: [Synth 8-638] synthesizing module 'EX_MA' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/EX_MA.v:23]
+INFO: [Synth 8-256] done synthesizing module 'EX_MA' (10#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/EX_MA.v:23]
+INFO: [Synth 8-638] synthesizing module 'DataMemory' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/DataMemory.v:23]
+	Parameter Addr_Width bound to: 12 - type: integer 
+	Parameter Data_Width bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'DataMemory' (11#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/DataMemory.v:23]
+WARNING: [Synth 8-689] width (32) of port connection 'Address' does not match port width (12) of module 'DataMemory' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:199]
+INFO: [Synth 8-638] synthesizing module 'MA_WB' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/MA_WB.v:23]
+INFO: [Synth 8-256] done synthesizing module 'MA_WB' (12#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/MA_WB.v:23]
+WARNING: [Synth 8-689] width (1) of port connection 'WriteReg_out' does not match port width (5) of module 'MA_WB' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:219]
+INFO: [Synth 8-638] synthesizing module 'HazardControlUnit' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/HazardControlUnit.v:23]
+INFO: [Synth 8-256] done synthesizing module 'HazardControlUnit' (13#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/HazardControlUnit.v:23]
+WARNING: [Synth 8-689] width (1) of port connection 'WriteRegW' does not match port width (5) of module 'HazardControlUnit' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:226]
+WARNING: [Synth 8-689] width (1) of port connection 'ForwardAE' does not match port width (2) of module 'HazardControlUnit' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:231]
+WARNING: [Synth 8-689] width (1) of port connection 'ForwardBE' does not match port width (2) of module 'HazardControlUnit' [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:232]
+WARNING: [Synth 8-151] case item 2'b10 is unreachable [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:272]
+INFO: [Synth 8-226] default block is never used [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:269]
+WARNING: [Synth 8-151] case item 2'b10 is unreachable [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:280]
+INFO: [Synth 8-226] default block is never used [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:277]
+WARNING: [Synth 8-3848] Net RegDstD in module/entity Pipelined_Processer does not have driver. [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:70]
+WARNING: [Synth 8-3848] Net ALUSrcE in module/entity Pipelined_Processer does not have driver. [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:121]
+INFO: [Synth 8-256] done synthesizing module 'Pipelined_Processer' (14#1) [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:23]
+WARNING: [Synth 8-3331] design EX_MA has unconnected port MemRead_in
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1708.023 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin PipeLinedReg2:RegDst_in to constant 0 [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:129]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1708.023 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:35 ; elapsed = 00:00:32 . Memory (MB): peak = 1782.555 ; gain = 74.531
+33 Infos, 15 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:32 . Memory (MB): peak = 1782.555 ; gain = 74.531
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'sim_PipeLinedProcesser' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj sim_PipeLinedProcesser_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ALUControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ALU_noclk.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_noclk
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/CU_completed.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CU_completed
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/EX_MA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX_MA
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/FI_ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FI_ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/HazardControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HazardControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ID_EX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_EX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/IMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/MA_WB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MA_WB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipelined_Processer
+WARNING: [VRFC 10-2292] extra semicolon is not allowed here in this dialect. Use SystemVerilog mode [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:29]
+INFO: [VRFC 10-2458] undeclared symbol RegDst, assumed default net type wire [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:84]
+INFO: [VRFC 10-2458] undeclared symbol RegWriteW, assumed default net type wire [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:100]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/ProgramCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ProgramCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/RegFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/SignExt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignExt
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sim_1/new/sim_PipeLinedProcesser.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim_PipeLinedProcesser
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: E:/vivado/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto d4747128847c466b8f66c9125655a02d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sim_PipeLinedProcesser_behav xil_defaultlib.sim_PipeLinedProcesser xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 5 for port WriteReg [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:103]
+WARNING: [VRFC 10-278] actual bit length 4 differs from formal bit length 1 for port ALUControl_in [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:136]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port ALUControl [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:169]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 12 for port Address [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:199]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 5 for port WriteReg_out [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:219]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 5 for port WriteRegW [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:226]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 2 for port ForwardAE [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:231]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 2 for port ForwardBE [D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v:232]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ProgramCounter
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.FI_ID
+Compiling module xil_defaultlib.CU_completed
+Compiling module xil_defaultlib.ALUControlUnit
+Compiling module xil_defaultlib.RegFile
+Compiling module xil_defaultlib.SignExt
+Compiling module xil_defaultlib.ID_EX
+Compiling module xil_defaultlib.ALU_noclk
+Compiling module xil_defaultlib.EX_MA
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.MA_WB
+Compiling module xil_defaultlib.HazardControlUnit
+Compiling module xil_defaultlib.Pipelined_Processer
+Compiling module xil_defaultlib.sim_PipeLinedProcesser
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sim_PipeLinedProcesser_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "sim_PipeLinedProcesser_behav -key {Behavioral:sim_1:Functional:sim_PipeLinedProcesser} -tclbatch {sim_PipeLinedProcesser.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+source sim_PipeLinedProcesser.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'sim_PipeLinedProcesser_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_design
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Dec 21 00:40:14 2024...

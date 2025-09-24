@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Mux41_with_ControlledBuffer.srcs/sources_1/new/ControlledBuffer.v" \
+"../../../../Mux41_with_ControlledBuffer.srcs/sim_1/new/sim_ControlledBuffer.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

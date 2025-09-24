@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Nov  8 19:33:45 2024
+# Process ID: 9672
+# Current directory: D:/VerlilogCode/ComputerStructure/exp4/RAM
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18464 D:\VerlilogCode\ComputerStructure\exp4\RAM\RAM.xpr
+# Log file: D:/VerlilogCode/ComputerStructure/exp4/RAM/vivado.log
+# Journal file: D:/VerlilogCode/ComputerStructure/exp4/RAM\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/VerlilogCode/ComputerStructure/exp4/RAM/RAM.xpr
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/VerlilogCode/ComputerStructure/exp4/RAM/RAM.srcs/sim_1/new/RAM_4Kx32.v w ]
+add_files -fileset sim_1 D:/VerlilogCode/ComputerStructure/exp4/RAM/RAM.srcs/sim_1/new/RAM_4Kx32.v
+update_compile_order -fileset sim_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/VerlilogCode/ComputerStructure/exp4/RAM/RAM.srcs/sim_1/new/sim_4Kx32.v w ]
+add_files -fileset sim_1 D:/VerlilogCode/ComputerStructure/exp4/RAM/RAM.srcs/sim_1/new/sim_4Kx32.v
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top sim_4Kx32 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source sim_4Kx32.tcl
+close_sim
+launch_simulation
+source sim_4Kx32.tcl
+add_bp {D:/VerlilogCode/ComputerStructure/exp4/RAM/RAM.srcs/sim_1/new/sim_4Kx32.v} 38
+close_sim
+launch_simulation
+source sim_4Kx32.tcl
+close_sim

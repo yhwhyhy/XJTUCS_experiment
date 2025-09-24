@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../exp3/ALU/ALU.srcs/sources_1/new/ADD.v" \
+"../../../../../../exp3/ALU/ALU.srcs/sources_1/new/Decoder38.v" \
+"../../../../../../exp3/ALU/ALU.srcs/sources_1/new/SLL.v" \
+"../../../../../../exp3/ALU/ALU.srcs/sources_1/new/SLT.v" \
+"../../../../../../exp3/ALU/ALU.srcs/sources_1/new/SUB.v" \
+"../../../../../../exp3/ALU/ALU.srcs/sources_1/new/adder_1bit.v" \
+"../../../../../../exp3/ALU/ALU.srcs/sources_1/new/adder_32bit.v" \
+"../../../../../../exp3/ALU/ALU.srcs/sources_1/new/adder_8bit.v" \
+"../../../../../../exp3/ALU/ALU.srcs/sources_1/new/ALU_8.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,42 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Dec 23 23:44:54 2024
+# Process ID: 21904
+# Current directory: D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent27072 D:\VerlilogCode\ComputerStructure\exp6\Pipelined_Processer\Pipelined_Processer.xpr
+# Log file: D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/vivado.log
+# Journal file: D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/VerlilogCode/ComputerStructure/exp6/Pipelined_Processer/Pipelined_Processer.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source sim_PipeLinedProcesser.tcl
+relaunch_sim
+restart
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+restart
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+run 50 ns
+close_sim

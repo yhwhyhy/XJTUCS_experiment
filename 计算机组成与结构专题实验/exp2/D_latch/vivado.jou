@@ -1,0 +1,41 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Oct 24 18:19:59 2024
+# Process ID: 5936
+# Current directory: D:/VerlilogCode/ComputerStructure/exp2/D_latch
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10856 D:\VerlilogCode\ComputerStructure\exp2\D_latch\D_latch.xpr
+# Log file: D:/VerlilogCode/ComputerStructure/exp2/D_latch/vivado.log
+# Journal file: D:/VerlilogCode/ComputerStructure/exp2/D_latch\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/VerlilogCode/ComputerStructure/exp2/D_latch/D_latch.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source sim_D_latch.tcl
+close_sim
+close_project
+open_project D:/VerlilogCode/ComputerStructure/exp2/D_ff/D_ff.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source sim_D_ff.tcl
+close_sim
+close_project
+open_project D:/VerlilogCode/ComputerStructure/exp2/register/register.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source sim_register.tcl
+close_sim
+close_project
+open_project D:/VerlilogCode/ComputerStructure/exp2/shift_register/shift_register.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source sim_shift_register.tcl
+close_sim
+close_project
+open_project D:/VerlilogCode/ComputerStructure/exp2/counter74x161/counter74x161.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source sim_counter.tcl
+close_sim

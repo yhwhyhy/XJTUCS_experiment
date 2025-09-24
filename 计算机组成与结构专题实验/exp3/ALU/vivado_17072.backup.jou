@@ -1,0 +1,66 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sun Oct 27 08:36:54 2024
+# Process ID: 17072
+# Current directory: D:/VerlilogCode/ComputerStructure/exp3/ALU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2040 D:\VerlilogCode\ComputerStructure\exp3\ALU\ALU.xpr
+# Log file: D:/VerlilogCode/ComputerStructure/exp3/ALU/vivado.log
+# Journal file: D:/VerlilogCode/ComputerStructure/exp3/ALU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/VerlilogCode/ComputerStructure/exp3/ALU/ALU.xpr
+update_compile_order -fileset sources_1
+close [ open D:/VerlilogCode/ComputerStructure/exp3/ALU/ALU.srcs/sources_1/new/ALU_8.v w ]
+add_files D:/VerlilogCode/ComputerStructure/exp3/ALU/ALU.srcs/sources_1/new/ALU_8.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+close_design
+file mkdir D:/VerlilogCode/ComputerStructure/exp3/ALU/ALU.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/VerlilogCode/ComputerStructure/exp3/ALU/ALU.srcs/sim_1/new/sim_ALU_8.v w ]
+add_files -fileset sim_1 D:/VerlilogCode/ComputerStructure/exp3/ALU/ALU.srcs/sim_1/new/sim_ALU_8.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source sim_ALU_8.tcl
+close_sim
+launch_simulation
+source sim_ALU_8.tcl
+close_sim
+launch_simulation
+source sim_ALU_8.tcl
+close_sim
+launch_simulation
+source sim_ALU_8.tcl
+close_sim
+close [ open D:/VerlilogCode/ComputerStructure/exp3/ALU/ALU.srcs/sources_1/new/adder_1bit.v w ]
+add_files D:/VerlilogCode/ComputerStructure/exp3/ALU/ALU.srcs/sources_1/new/adder_1bit.v
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top adder_1bit [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/VerlilogCode/ComputerStructure/exp3/ALU/ALU.srcs/sim_1/new/sim_adder_1bit.v w ]
+add_files -fileset sim_1 D:/VerlilogCode/ComputerStructure/exp3/ALU/ALU.srcs/sim_1/new/sim_adder_1bit.v
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top sim_adder_1bit [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+synth_design -rtl -name rtl_1
+launch_simulation
+close_design
+launch_simulation
+synth_design -rtl -name rtl_1
+close_design

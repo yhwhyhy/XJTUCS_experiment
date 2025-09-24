@@ -1,0 +1,11 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+D:/VerlilogCode/ComputerStructure/exp1/Mux41_with_ControlledBuffer/Mux41_with_ControlledBuffer.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+D:/VerlilogCode/ComputerStructure/exp1/Mux41_with_ControlledBuffer/Mux41_with_ControlledBuffer.srcs/sim_1/new/SimMux41.v,1729177494,verilog,,,,SimMux41,,,,,,,,
+D:/VerlilogCode/ComputerStructure/exp1/Mux41_with_ControlledBuffer/Mux41_with_ControlledBuffer.srcs/sim_1/new/sim_ControlledBuffer.v,1728921812,verilog,,,,sim_ControlledBuffer,,,,,,,,
+D:/VerlilogCode/ComputerStructure/exp1/Mux41_with_ControlledBuffer/Mux41_with_ControlledBuffer.srcs/sim_1/new/sim_mux21.v,1729164473,verilog,,,,sim_mux21,,,,,,,,
+D:/VerlilogCode/ComputerStructure/exp1/Mux41_with_ControlledBuffer/Mux41_with_ControlledBuffer.srcs/sources_1/new/ControlledBuffer.v,1729234175,verilog,,D:/VerlilogCode/ComputerStructure/exp1/Mux41_with_ControlledBuffer/Mux41_with_ControlledBuffer.srcs/sources_1/new/mux21.v,,ControlledBuffer,,,,,,,,
+D:/VerlilogCode/ComputerStructure/exp1/Mux41_with_ControlledBuffer/Mux41_with_ControlledBuffer.srcs/sources_1/new/mux21.v,1729164592,verilog,,D:/VerlilogCode/ComputerStructure/exp1/Mux41_with_ControlledBuffer/Mux41_with_ControlledBuffer.srcs/sources_1/new/mux41.v,,mux21,,,,,,,,
+D:/VerlilogCode/ComputerStructure/exp1/Mux41_with_ControlledBuffer/Mux41_with_ControlledBuffer.srcs/sources_1/new/mux41.v,1729177569,verilog,,D:/VerlilogCode/ComputerStructure/exp1/Mux41_with_ControlledBuffer/Mux41_with_ControlledBuffer.srcs/sim_1/new/SimMux41.v,,mux41,,,,,,,,

@@ -1,0 +1,12 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+D:/VerlilogCode/ComputerStructure/exp4/RAM/RAM.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+D:/VerlilogCode/ComputerStructure/exp4/RAM/RAM.srcs/sim_1/new/sim_4Kx32.v,1731069444,verilog,,,,sim_4Kx32,,,,,,,,
+D:/VerlilogCode/ComputerStructure/exp4/RAM/RAM.srcs/sim_1/new/sim_RAM1Kx16_io.v,1731146152,verilog,,,,sim_RAM1Kx16_io,,,,,,,,
+D:/VerlilogCode/ComputerStructure/exp4/RAM/RAM.srcs/sim_1/new/sim_RAM1Kx16b.v,1730985985,verilog,,,,sim_RAM1Kx16b,,,,,,,,
+D:/VerlilogCode/ComputerStructure/exp4/RAM/RAM.srcs/sources_1/new/Decoder24.v,1730619386,verilog,,D:/VerlilogCode/ComputerStructure/exp4/RAM/RAM.srcs/sources_1/new/RAM_1Kx16.v,,Decoder24,,,,,,,,
+D:/VerlilogCode/ComputerStructure/exp4/RAM/RAM.srcs/sources_1/new/RAM_1Kx16.v,1730982286,verilog,,D:/VerlilogCode/ComputerStructure/exp4/RAM/RAM.srcs/sources_1/new/RAM_4Kx32.v,,RAM_1Kx16,,,,,,,,
+D:/VerlilogCode/ComputerStructure/exp4/RAM/RAM.srcs/sources_1/new/RAM_1Kx16_inout.v,1731144891,verilog,,D:/VerlilogCode/ComputerStructure/exp4/RAM/RAM.srcs/sim_1/new/sim_RAM1Kx16_io.v,,RAM_1Kx16_inout,,,,,,,,
+D:/VerlilogCode/ComputerStructure/exp4/RAM/RAM.srcs/sources_1/new/RAM_4Kx32.v,1730620011,verilog,,D:/VerlilogCode/ComputerStructure/exp4/RAM/RAM.srcs/sim_1/new/sim_4Kx32.v,,RAM_4Kx32,,,,,,,,

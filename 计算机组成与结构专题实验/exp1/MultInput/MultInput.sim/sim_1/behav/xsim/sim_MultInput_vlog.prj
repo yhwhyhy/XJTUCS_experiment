@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../MultInput.srcs/sources_1/new/Multinput.v" \
+"../../../../MultInput.srcs/sim_1/new/sim_MultInput.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

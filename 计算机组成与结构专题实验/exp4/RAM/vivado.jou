@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Nov  9 17:35:53 2024
+# Process ID: 8584
+# Current directory: D:/VerlilogCode/ComputerStructure/exp4/RAM
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5772 D:\VerlilogCode\ComputerStructure\exp4\RAM\RAM.xpr
+# Log file: D:/VerlilogCode/ComputerStructure/exp4/RAM/vivado.log
+# Journal file: D:/VerlilogCode/ComputerStructure/exp4/RAM\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/VerlilogCode/ComputerStructure/exp4/RAM/RAM.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source sim_RAM1Kx16_io.tcl
+close_sim
+launch_simulation
+source sim_RAM1Kx16_io.tcl
+close_sim
+launch_simulation
+source sim_RAM1Kx16_io.tcl
+log_wave {/sim_RAM1Kx16_io/Data} 
+close_sim
+launch_simulation
+source sim_RAM1Kx16_io.tcl
+close_sim
+launch_simulation
+source sim_RAM1Kx16_io.tcl
+close_sim

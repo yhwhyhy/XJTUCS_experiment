@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Oct 17 22:50:38 2024
+# Process ID: 20656
+# Current directory: D:/VerlilogCode/ComputerStructure/exp1/Mux41_with_ControlledBuffer
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20876 D:\VerlilogCode\ComputerStructure\exp1\Mux41_with_ControlledBuffer\Mux41_with_ControlledBuffer.xpr
+# Log file: D:/VerlilogCode/ComputerStructure/exp1/Mux41_with_ControlledBuffer/vivado.log
+# Journal file: D:/VerlilogCode/ComputerStructure/exp1/Mux41_with_ControlledBuffer\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/VerlilogCode/ComputerStructure/exp1/Mux41_with_ControlledBuffer/Mux41_with_ControlledBuffer.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/vivado/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Oct 17 22:52:09 2024...

@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Oct 18 20:03:30 2024
+# Process ID: 11820
+# Current directory: D:/VerlilogCode/ComputerStructure/exp1/encoder83
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6572 D:\VerlilogCode\ComputerStructure\exp1\encoder83\encoder83.xpr
+# Log file: D:/VerlilogCode/ComputerStructure/exp1/encoder83/vivado.log
+# Journal file: D:/VerlilogCode/ComputerStructure/exp1/encoder83\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/VerlilogCode/ComputerStructure/exp1/encoder83/encoder83.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source sim_encoder83.tcl
+close_sim
+close_project
+open_project D:/VerlilogCode/ComputerStructure/exp1/decoder38/decoder38.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+close_design
+launch_simulation
+source sim_decoder38.tcl
+close_sim

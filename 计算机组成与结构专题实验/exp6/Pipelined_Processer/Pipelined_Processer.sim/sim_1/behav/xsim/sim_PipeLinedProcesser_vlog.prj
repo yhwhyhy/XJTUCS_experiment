@@ -1,0 +1,23 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Pipelined_Processer.srcs/sources_1/new/ALUControlUnit.v" \
+"../../../../Pipelined_Processer.srcs/sources_1/new/ALU_noclk.v" \
+"../../../../Pipelined_Processer.srcs/sources_1/new/CU_completed.v" \
+"../../../../Pipelined_Processer.srcs/sources_1/new/DataMemory.v" \
+"../../../../Pipelined_Processer.srcs/sources_1/new/EX_MA.v" \
+"../../../../Pipelined_Processer.srcs/sources_1/new/FI_ID.v" \
+"../../../../Pipelined_Processer.srcs/sources_1/new/HazardControlUnit.v" \
+"../../../../Pipelined_Processer.srcs/sources_1/new/ID_EX.v" \
+"../../../../Pipelined_Processer.srcs/sources_1/new/IMem.v" \
+"../../../../Pipelined_Processer.srcs/sources_1/new/MA_WB.v" \
+"../../../../Pipelined_Processer.srcs/sources_1/new/Pipelined_Processer.v" \
+"../../../../Pipelined_Processer.srcs/sources_1/new/ProgramCounter.v" \
+"../../../../Pipelined_Processer.srcs/sources_1/new/RegFile.v" \
+"../../../../Pipelined_Processer.srcs/sources_1/new/SignExt.v" \
+"../../../../Pipelined_Processer.srcs/sim_1/new/sim_PipeLinedProcesser.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

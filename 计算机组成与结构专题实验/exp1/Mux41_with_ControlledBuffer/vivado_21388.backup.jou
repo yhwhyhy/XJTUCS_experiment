@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Oct 14 23:55:50 2024
+# Process ID: 21388
+# Current directory: D:/VerlilogCode/ComputerStructure/exp1/Mux41_with_ControlledBuffer
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12652 D:\VerlilogCode\ComputerStructure\exp1\Mux41_with_ControlledBuffer\Mux41_with_ControlledBuffer.xpr
+# Log file: D:/VerlilogCode/ComputerStructure/exp1/Mux41_with_ControlledBuffer/vivado.log
+# Journal file: D:/VerlilogCode/ComputerStructure/exp1/Mux41_with_ControlledBuffer\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/VerlilogCode/ComputerStructure/exp1/Mux41_with_ControlledBuffer/Mux41_with_ControlledBuffer.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+close_design
+launch_simulation
+launch_simulation
+launch_simulation
+source sim_ControlledBuffer.tcl
+close_sim
+launch_simulation
+source sim_ControlledBuffer.tcl
+close_sim
+launch_simulation
+source sim_ControlledBuffer.tcl
+close_sim
+launch_simulation
+source sim_ControlledBuffer.tcl
+close_sim
+launch_simulation
+source sim_ControlledBuffer.tcl
+close_sim

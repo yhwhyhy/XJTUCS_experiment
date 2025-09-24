@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Oct  9 15:36:55 2024
+# Process ID: 9788
+# Current directory: D:/VerlilogCode/ComputerStructure/exp1/MultInput
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6668 D:\VerlilogCode\ComputerStructure\exp1\MultInput\MultInput.xpr
+# Log file: D:/VerlilogCode/ComputerStructure/exp1/MultInput/vivado.log
+# Journal file: D:/VerlilogCode/ComputerStructure/exp1/MultInput\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/VerlilogCode/ComputerStructure/exp1/MultInput/MultInput.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+close_design

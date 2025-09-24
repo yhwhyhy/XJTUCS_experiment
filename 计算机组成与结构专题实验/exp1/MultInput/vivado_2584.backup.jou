@@ -1,0 +1,64 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Oct  9 16:04:14 2024
+# Process ID: 2584
+# Current directory: D:/VerlilogCode/ComputerStructure/exp1/MultInput
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16120 D:\VerlilogCode\ComputerStructure\exp1\MultInput\MultInput.xpr
+# Log file: D:/VerlilogCode/ComputerStructure/exp1/MultInput/vivado.log
+# Journal file: D:/VerlilogCode/ComputerStructure/exp1/MultInput\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/VerlilogCode/ComputerStructure/exp1/MultInput/MultInput.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+close_design
+close_project
+create_project encoder83 D:/VerlilogCode/ComputerStructure/exp1/encoder83 -part xc7a35tcsg324-1
+file mkdir D:/VerlilogCode/ComputerStructure/exp1/encoder83/encoder83.srcs/sources_1/new
+close [ open D:/VerlilogCode/ComputerStructure/exp1/encoder83/encoder83.srcs/sources_1/new/pre_encoder83_case.v w ]
+add_files D:/VerlilogCode/ComputerStructure/exp1/encoder83/encoder83.srcs/sources_1/new/pre_encoder83_case.v
+update_compile_order -fileset sources_1
+close [ open D:/VerlilogCode/ComputerStructure/exp1/encoder83/encoder83.srcs/sources_1/new/pre_encoder83_if.v w ]
+add_files D:/VerlilogCode/ComputerStructure/exp1/encoder83/encoder83.srcs/sources_1/new/pre_encoder83_if.v
+update_compile_order -fileset sources_1
+close [ open D:/VerlilogCode/ComputerStructure/exp1/encoder83/encoder83.srcs/sources_1/new/encoder83_assign.v w ]
+add_files D:/VerlilogCode/ComputerStructure/exp1/encoder83/encoder83.srcs/sources_1/new/encoder83_assign.v
+update_compile_order -fileset sources_1
+close [ open D:/VerlilogCode/ComputerStructure/exp1/encoder83/encoder83.srcs/sources_1/new/encoder83_case.v w ]
+add_files D:/VerlilogCode/ComputerStructure/exp1/encoder83/encoder83.srcs/sources_1/new/encoder83_case.v
+update_compile_order -fileset sources_1
+file mkdir D:/VerlilogCode/ComputerStructure/exp1/encoder83/encoder83.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/VerlilogCode/ComputerStructure/exp1/encoder83/encoder83.srcs/sim_1/new/sim_encoder83.v w ]
+add_files -fileset sim_1 D:/VerlilogCode/ComputerStructure/exp1/encoder83/encoder83.srcs/sim_1/new/sim_encoder83.v
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top sim_encoder83 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source sim_encoder83.tcl
+close_sim
+launch_simulation
+source sim_encoder83.tcl
+close_sim
+close_project
+create_project decoder38 D:/VerlilogCode/ComputerStructure/exp1/decoder38 -part xc7a15tcsg324-1
+file mkdir D:/VerlilogCode/ComputerStructure/exp1/decoder38/decoder38.srcs/sources_1/new
+close [ open D:/VerlilogCode/ComputerStructure/exp1/decoder38/decoder38.srcs/sources_1/new/decoder38.v w ]
+add_files D:/VerlilogCode/ComputerStructure/exp1/decoder38/decoder38.srcs/sources_1/new/decoder38.v
+update_compile_order -fileset sources_1
+file mkdir D:/VerlilogCode/ComputerStructure/exp1/decoder38/decoder38.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/VerlilogCode/ComputerStructure/exp1/decoder38/decoder38.srcs/sim_1/new/sim_decoder38.v w ]
+add_files -fileset sim_1 D:/VerlilogCode/ComputerStructure/exp1/decoder38/decoder38.srcs/sim_1/new/sim_decoder38.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source sim_decoder38.tcl
+close_sim
